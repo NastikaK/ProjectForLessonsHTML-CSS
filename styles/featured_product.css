@@ -1,0 +1,145 @@
+.featured-product {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.tab-menu {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    font-size: 36px;
+    font-weight: 800;
+    width: 290px;
+    border-bottom: 1px solid #6c6c6c;
+    padding-bottom: 8.1px;
+
+}
+
+.tab-list a {
+    text-decoration: none;
+}
+.tab-link {
+    color: #6c6c6c;
+    padding-left: 6px;
+}
+
+.tab-link-active {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 800;
+    padding-right: 25px;
+    border-bottom: 3px solid #212121;
+    padding-bottom: 5.1px;
+}
+
+.tab-link:hover {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 800;
+    border-bottom: 3px solid #212121;
+    padding-bottom: 5.1px;
+}
+
+.tab-link:active {
+    color: #494949;
+    border-bottom: 3px solid #494949;
+    font-size: 36px;
+    font-weight: 800;
+    padding-bottom: 5.1px;
+}
+
+.btn-content {
+    float: right;
+    margin-top: -25px;
+    margin-right: 20px;
+}
+
+.btn-content a {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+}
+
+.btn-content:hover {
+    border-bottom: 2px solid #000000;
+}
+
+.btn-content a:hover {
+    color: #494949;
+}
+
+.btn-content:active {
+    border-bottom: 3px solid #000000;
+}
+
+.tab-content {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 68px;
+    width: 1170px;
+}
+
+.tab-product {
+    position: relative;
+    width: 270px;
+    height: 270px;
+}
+
+.product-hover {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+    opacity: 0.9;   
+}
+
+.product-1-link {
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 24px;
+    background-color: #ffffff;
+    width: 48px;
+    height: 48px;
+}
+
+.product-1-link:hover {
+    background-color: #cecece;
+}
+
+.product-1-link:active {
+    background-color: #9c9c9c;
+}
+
+img[alt="arrow"] {
+    padding-top: 15px;
+    padding-left: 18px;
+}
+
+.product-1-fishnet {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 23px;
+    margin-top: 19px;
+}
+
+.product-hover-content {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21.91px;
+    text-align: center;
+}
+
+.tab-product:hover > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

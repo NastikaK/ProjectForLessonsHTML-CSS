@@ -1,0 +1,62 @@
+/* Style for trending products */
+
+.trending-products {
+    margin-top: 119px;
+    margin-bottom: 120px;
+}
+
+.trending-products-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 770px;
+    padding-top: 68px;
+    min-width: 800px;
+}
+
+.title-trending-products {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: 0;
+}
+
+.products-img {
+    width: 30%;
+    height: 30%;
+}
+
+/* Styles for hots deals */
+
+.hot-deals {
+    height: 800px;
+    background-image: url(../img/slider.jpg);
+    position: relative;
+}
+
+.deals-tag {
+    padding-top: 287px;
+    margin-left: 1px;
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.deals-name {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 14px;
+}
+
+.deals-detals {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    padding-bottom: 28px;
+}
