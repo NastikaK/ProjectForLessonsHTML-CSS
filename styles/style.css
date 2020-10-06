@@ -10,7 +10,6 @@ body {
 
 .container {
     margin: 0 auto;
-    min-width: 600px;
 }
 
 .clearfix:after {
@@ -22,6 +21,10 @@ body {
 .padding-site {
     padding-left: 98px;
     padding-right: 98px;
+}
+
+.fa-search {
+    font-size: 25px!important;
 }
 
 /* Style for button "Order Us" */
@@ -49,11 +52,11 @@ img[alt="arrow-button"] {
 }
 
 .slider-button:hover {
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(230, 230, 230);
 }
 
 .slider-button:active {
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(230, 230, 230);
     box-shadow: none;
 }
 

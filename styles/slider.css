@@ -8,6 +8,7 @@
 
 .container {
     width: 1366px;
+    min-width: 700px;
     margin: 0 auto;
     background-color: white;
 }
