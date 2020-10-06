@@ -150,6 +150,11 @@ footer {
     margin-top: -10px;
 }
 
+img[alt="icons"] {
+    width: 35px;
+    height: 35px;
+}
+
 img[alt="icons"]:hover {
     box-shadow: 0 0 2px 3px #acacac;
     border-radius: 30px;
