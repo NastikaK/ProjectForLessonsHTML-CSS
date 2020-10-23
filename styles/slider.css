@@ -34,6 +34,11 @@
     padding: 10px 13px;
 }
 
+.menu-link-active {
+    font-weight: 400;
+    border-bottom: 3px solid #212121;
+}
+
 .menu-link:hover {
     color: #212121;
     font-weight: 400;
